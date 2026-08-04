@@ -14,7 +14,7 @@ function App() {
           <a href="#">Contacto</a>
         </nav>
       </header>
-
+    
       <main>
         <section>
           <h2>Capturando momentos únicos</h2>
