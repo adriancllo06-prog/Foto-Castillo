@@ -1,7 +1,8 @@
 import Navigation from './components/navigations';
-import assets from './assets/DSC_0090.jpg';
+import assets from './assets/maria.jpg';
 import './App.css';
 import logo from './assets/LOGO SECUNDARIOPNG.png';
+import Portfolio from './components/portfolio ';
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
             />
           </div>
         </section>
+
+        <Portfolio />
       </main>
     </>
   );
