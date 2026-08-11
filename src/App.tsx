@@ -3,6 +3,7 @@ import assets from './assets/maria.jpg';
 import './App.css';
 import logo from './assets/LOGO SECUNDARIOPNG.png';
 import Portfolio from './components/portfolio ';
+import Servicios from './components/servicios';
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
         </section>
 
         <Portfolio />
+        <Servicios />
+
       </main>
     </>
   );
