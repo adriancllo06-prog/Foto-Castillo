@@ -1,12 +1,12 @@
 function Navigation() {
   return (
     <nav className="navigation">
-      <a href="#">Inicio</a>
-      <a href="#">Portafolio</a>
-      <a href="#">Servicios</a>
-      <a href="#">Contacto</a>
+      <a href="#inicio">Inicio</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
     </nav>
-  )
+  );
 }
 
-export default Navigation
+export default Navigation;

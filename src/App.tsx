@@ -4,7 +4,8 @@ import './App.css';
 import logo from './assets/LOGO SECUNDARIOPNG.png';
 import Portfolio from './components/portfolio ';
 import Servicios from './components/servicios';
-
+import Contacto from './components/contacto';
+import Footer from './components/footer';
 function App() {
   return (
     <>
@@ -19,7 +20,7 @@ function App() {
       </header>
 
       <main>
-        <section className="hero">
+        <section className="hero" id="inicio">
           <div className="hero-content">
             <h2>Capturando momentos únicos</h2>
 
@@ -28,7 +29,7 @@ function App() {
               algunos de mis mejores trabajos.
             </p>
 
-            <button>Ver Portafolio</button>
+            <button><a href="#portafolio" style={{ textDecoration: 'none', color: 'inherit' }}>Ver Portafolio</a></button>
           </div>
 
           <div className="hero-image">
@@ -41,8 +42,10 @@ function App() {
 
         <Portfolio />
         <Servicios />
-
+        <Contacto />
+        
       </main>
+      <Footer />
     </>
   );
 }

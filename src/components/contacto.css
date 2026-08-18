@@ -1,0 +1,172 @@
+.contact {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 110px 40px;
+}
+
+.contact-header {
+  max-width: 750px;
+  margin: 0 auto 65px;
+  text-align: center;
+}
+
+.contact-subtitle {
+  margin: 0 0 12px;
+
+  color: var(--rojo);
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.contact-header h2 {
+  margin: 0 0 20px;
+
+  color: var(--blanco);
+
+  font-size: 48px;
+  line-height: 1.1;
+}
+
+.contact-header > p:last-child {
+  margin: 0;
+
+  color: var(--gris);
+
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-item {
+  padding: 28px;
+
+  background: var(--fondo-secundario);
+
+  border: 1px solid rgba(140, 205, 199, 0.15);
+  border-radius: 12px;
+}
+
+.contact-item span {
+  display: block;
+
+  margin-bottom: 8px;
+
+  color: var(--rojo);
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contact-item p {
+  margin: 0;
+
+  color: var(--gris);
+
+  line-height: 1.6;
+}
+
+.contact-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 45px;
+
+  background: var(--rojo);
+
+  border-radius: 12px;
+}
+
+.contact-action h3 {
+  margin: 0 0 15px;
+
+  color: var(--blanco);
+
+  font-size: 32px;
+}
+
+.contact-action p {
+  margin: 0 0 30px;
+
+  color: rgba(255, 255, 255, 0.85);
+
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: fit-content;
+
+  padding: 13px 25px;
+
+  background: var(--blanco);
+  color: var(--rojo);
+
+  border-radius: 6px;
+
+  text-decoration: none;
+
+  font-weight: 700;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 750px) {
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .contact-header h2 {
+    font-size: 38px;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-action {
+    padding: 35px;
+  }
+}
+.contact-item a {
+  display: inline-block;
+  margin-top: 15px;
+
+  color: var(--turquesa);
+
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: var(--rojo);
+}

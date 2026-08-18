@@ -21,7 +21,7 @@ function Portfolio() {
 
 
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portafolio">
 
       <div className="portfolio-header">
         <p className="portfolio-subtitle">MIS TRABAJOS</p>
