@@ -27,7 +27,7 @@ function Contacto() {
   </p>
 
   <a
-    href="https://wa.me/18096233935"
+    href="https://wa.me/18296233935"
     target="_blank"
     rel="noopener noreferrer"
   >
